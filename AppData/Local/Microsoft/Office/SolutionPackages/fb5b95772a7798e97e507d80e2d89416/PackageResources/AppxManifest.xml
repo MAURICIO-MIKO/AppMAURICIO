@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap2 uap3" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3">
+  <Identity Name="05ce670a-f23c-47fd-8937-2bc622fc9bc7" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.0.2306.29003"/>
+  <Properties>
+    <DisplayName>Licensing</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>msft.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="12.0.0.0"/>
+    <TargetDeviceFamily Name="Platform.All" MinVersion="0.0.0.0" MaxVersionTested="0.0.0.0"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="fr-fr"/>
+  </Resources>
+  <Applications>
+    <Application Id="Microsoft.Office.FA000000069">
+      <uap:VisualElements DisplayName="Licensing" Square150x150Logo="msft.png" Square44x44Logo="msft.png" Description="Licensing User Experience" BackgroundColor="transparent" AppListEntry="none"/>
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="office-add-in-contract" Id="Workbook-add-in" PublicFolder="public\Licensing" DisplayName="Licensing" Description="Licensing User Experience">
+            <uap3:Properties/>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+</Package>

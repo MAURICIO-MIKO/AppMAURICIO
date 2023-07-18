@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<R Id="120672" V="0" DC="SM" T="Subrule" xmlns="">
+  <S>
+    <R T="1" R="120671" />
+    <TH T="2">
+      <O T="EQ">
+        <L>
+          <U T="EqualsNull">
+            <S T="1" F="0" M="Ignore" />
+          </U>
+        </L>
+        <R>
+          <V V="false" T="B" />
+        </R>
+      </O>
+    </TH>
+  </S>
+  <C T="W" I="0" O="false">
+    <V V="Supermicro" T="W" />
+  </C>
+  <T>
+    <S T="2" />
+  </T>
+</R>
